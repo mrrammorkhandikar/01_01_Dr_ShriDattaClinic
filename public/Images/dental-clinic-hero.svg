@@ -1,0 +1,61 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f9ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0f7fa;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="chairGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="600" fill="url(#bgGradient)"/>
+  
+  <!-- Modern Dental Office Interior -->
+  <!-- Floor -->
+  <rect x="0" y="450" width="600" height="150" fill="#f8fafc"/>
+  
+  <!-- Wall -->
+  <rect x="0" y="0" width="600" height="450" fill="#ffffff"/>
+  
+  <!-- Dental Chair -->
+  <ellipse cx="300" cy="400" rx="80" ry="40" fill="url(#chairGradient)"/>
+  <rect x="220" y="350" width="160" height="50" fill="url(#chairGradient)" rx="25"/>
+  <rect x="270" y="320" width="60" height="30" fill="#1e40af" rx="15"/>
+  
+  <!-- Dental Light -->
+  <circle cx="200" cy="200" r="30" fill="#f1f5f9" stroke="#64748b" stroke-width="3"/>
+  <rect x="180" y="180" width="40" height="40" fill="#ffffff" rx="5"/>
+  <line x1="200" y1="230" x2="200" y2="280" stroke="#64748b" stroke-width="4"/>
+  <circle cx="200" cy="290" r="8" fill="#64748b"/>
+  
+  <!-- Medical Equipment -->
+  <rect x="450" y="250" width="60" height="120" fill="#e2e8f0" rx="10"/>
+  <circle cx="480" cy="270" r="8" fill="#10b981"/>
+  <circle cx="480" cy="300" r="8" fill="#ef4444"/>
+  <rect x="460" y="320" width="40" height="30" fill="#64748b" rx="5"/>
+  
+  <!-- Window -->
+  <rect x="50" y="80" width="120" height="100" fill="#bfdbfe" stroke="#3b82f6" stroke-width="2" rx="5"/>
+  <line x1="110" y1="80" x2="110" y2="180" stroke="#3b82f6" stroke-width="2"/>
+  <line x1="50" y1="130" x2="170" y2="130" stroke="#3b82f6" stroke-width="2"/>
+  
+  <!-- Dental Tools -->
+  <g transform="translate(350, 300)">
+    <rect x="0" y="0" width="4" height="40" fill="#64748b"/>
+    <circle cx="2" cy="45" r="3" fill="#94a3b8"/>
+    <rect x="10" y="0" width="4" height="40" fill="#64748b"/>
+    <rect x="8" y="40" width="8" height="8" fill="#94a3b8" rx="2"/>
+  </g>
+  
+  <!-- Modern Elements -->
+  <circle cx="400" cy="150" r="20" fill="#10b981" opacity="0.3"/>
+  <circle cx="450" cy="120" r="15" fill="#3b82f6" opacity="0.3"/>
+  <circle cx="380" cy="100" r="12" fill="#ef4444" opacity="0.3"/>
+  
+  <!-- Text -->
+  <text x="300" y="500" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e40af" text-anchor="middle">Modern Dental Clinic</text>
+  <text x="300" y="530" font-family="Arial, sans-serif" font-size="16" fill="#64748b" text-anchor="middle">Advanced Care & Technology</text>
+</svg>
